@@ -1,0 +1,103 @@
+* {
+    font-size: 2.5vh;
+    background-color: rgb(140, 165, 187);
+}
+
+h1 {
+    font-size: 7vh;
+    font-family: cursive;
+}
+
+p,
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.intro,
+.achieve,
+.skill,
+.edu,
+.hobby {
+    border: 3px solid rgb(101, 101, 101);
+    margin-bottom: 5vh;
+    box-shadow: 5px 5px 5px 5px rgb(46, 106, 143);
+    border-radius: 3vh;
+    width: 50vw;
+
+}
+
+.int {
+    padding-bottom: 8vh;
+}
+
+h1 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+aside {
+    gap: 3vw;
+    border-radius: 3vh;
+}
+
+img {
+    height: 31vh;
+    width: 22vw;
+    padding-bottom: 3vh;
+    border-radius: 3vh;
+}
+
+.intro {
+
+}
+
+.achieve {}
+
+.skill {}
+
+.edu {
+    margin-left: 45vw;
+}
+
+.hobby {
+    margin-left: 45vw;
+}
+.invi{
+    visibility: hidden;;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:monospace;
+    background-color: aliceblue;
+}
+
+@media only screen and (max-width:992px) {
+    .intro,
+    .achieve,
+    .skill,
+    .edu,
+    .hobby {
+        width:80vw;
+    }
+    h2{
+        font-size:3vh
+    }
+    .edu,.hobby{
+        margin-left: 0;
+    }
+    
+    img{
+        padding:0 0 0 0;
+        width:69vw;
+
+    }
+}
+
